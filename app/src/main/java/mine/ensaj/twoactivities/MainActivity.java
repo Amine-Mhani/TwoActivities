@@ -1,13 +1,12 @@
 package mine.ensaj.twoactivities;
 
 
-import static android.content.ContentValues.TAG;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -36,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("message", msg);
                 startActivity(intent);
 
-                Log.d(TAG, "onClick: test");
 
                 /*Intent intent = new Intent(MainActivity.this, SecondActivity.class);
 
